@@ -1,0 +1,59 @@
+h1, h2 {
+    font-family: Lato, sans-serif;
+}
+
+main, footer {
+    font-family: monospace, Times, serif;
+}
+
+#content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(23, 101, 173);
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0px 0px 20px 5px grey;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header img {
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+header h1 {
+    color: white;
+}
+
+/* MAIN */
+
+main {
+    margin: 3em 0;
+}
+
+main h2 {
+    text-shadow: 0px 0px 10px grey;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(23, 101, 173);
+    border-radius: 10px;
+    padding: 1em;
+    color: white;
+    box-shadow: 0px 0px 20px 5px grey;
+
+    text-align: center;
+}
+
+#last_update {
+    color: yellow;
+}
