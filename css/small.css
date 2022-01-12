@@ -10,6 +10,7 @@ main, footer {
 
 #content {
     max-width: 500px;
+    min-width: min-content;
     margin: 0 auto;
 }
 
@@ -17,10 +18,10 @@ main, footer {
 
 header {
     background-color: rgb(23, 101, 173);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 1em;
     margin-top: 1em;
-    box-shadow: 0px 0px 20px 5px grey;
+    /* box-shadow: 0px 0px 20px 5px grey; */
 
     display: flex;
     align-items: center;
@@ -32,13 +33,16 @@ header img {
 }
 
 header h1 {
+    font-size: 1.5em;
     color: white;
+    margin: 1rem;
 }
 
 /* MAIN */
 
 main {
     margin: 3em 0;
+    padding: 0 2em;
 }
 
 main h2 {
@@ -49,11 +53,11 @@ main h2 {
 
 footer {
     background-color: rgb(23, 101, 173);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 1em;
     margin-bottom: 1em;
     color: white;
-    box-shadow: 0px 0px 20px 5px grey;
+    /* box-shadow: 0px 0px 20px 5px grey; */
 
     text-align: center;
 }
