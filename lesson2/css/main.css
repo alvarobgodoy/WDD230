@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* BASE VIEW (1 coulumn) */
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#content {
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(23, 101, 173);
+    text-align: center;
+    padding: .1em;
+    color: white;
+}
+
+main {
+    /* margin: 1em; */
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+footer {
+    background-color: rgb(23, 101, 173);
+    text-align: center;
+    padding: .1em;
+    color: white;
+}
+
+#lastUpdate {
+    color: yellow;
+}
+
+/* 1 */
+
+.principle1 {
+    margin: 1em;
+    border-radius: 10px;
+    border: solid 1px rgb(185, 185, 185);
+    padding: 0 1em;
+}
+
+.principle1 h3 {
+    text-shadow: 0px 0px 10px grey;
+}
+
+.principle1 a {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.principle1 img {
+    width: 100%;
+    box-shadow: 0px 0px 2px grey;
+}
+
+/* 2 */
+
+.principle2 {
+    margin: 1em;
+    border-radius: 10px;
+    border: solid 1px rgb(185, 185, 185);
+    padding: 0 1em;
+}
+
+.principle2 h3 {
+    text-shadow: 0px 0px 10px grey;
+}
+
+.principle2 a {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.principle2 img {
+    width: 100%;
+    box-shadow: 0px 0px 2px grey;
+}
+
+/* 3 */
+
+.principle3 {
+    margin: 1em;
+    border-radius: 10px;
+    border: solid 1px rgb(185, 185, 185);
+    padding: 0 1em;
+}
+
+.principle3 h3 {
+    text-shadow: 0px 0px 10px grey;
+}
+
+.principle3 a {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.principle3 img {
+    width: 100%;
+    box-shadow: 0px 0px 2px grey;
+}
+
+/* SECOND VIEW (2 coulumns) */
+
+@media only screen and (min-width: 37.5em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .principle1 {
+        grid-column: 1;
+    }
+
+    .principle2 {
+        grid-column: 2;
+    }
+
+    .principle3 {
+        grid-column: span 2;
+    }
+}
+
+/* THIRD VIEW (3 coulumns) */
+
+@media only screen and (min-width: 60em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .principle1 {
+        grid-column: 1;
+    }
+
+    .principle2 {
+        grid-column: 2;
+    }
+
+    .principle3 {
+        grid-column: 3;
+    }
+}
