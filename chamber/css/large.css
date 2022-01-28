@@ -15,7 +15,6 @@ header {
 .header-date {
     grid-row: 2;
     grid-column: 1 / span 5;
-    text-align: center;
 }
 
 nav {
