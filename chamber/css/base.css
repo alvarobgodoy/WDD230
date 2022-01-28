@@ -128,11 +128,27 @@ nav ul.open {display:block;}
 
 /* MAIN */
 
+main {
+    padding: .5rem;
+    display: grid;
+    gap: .5rem;
+}
+
 main div {
-    padding: 4em;
+    padding: 3em;
     background-color: rgb(189, 189, 189);
     border: 1px solid black;
 }
+
+.spotlights div:nth-child(3) {
+    display: none;
+}
+
+.join {
+    display: none;
+}
+
+/* END MAIN */
 
 /* FOOTER */
 footer {
