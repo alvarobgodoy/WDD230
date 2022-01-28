@@ -26,7 +26,7 @@ header {
     background-color: var(--primary-color);
     padding: 1rem;
     display: grid;
-    grid-template-columns: 5fr 1fr 1fr;
+    grid-template-columns: 5fr 1fr .7fr;
     align-items: center;
     color: white;
 }
@@ -71,6 +71,7 @@ nav ul.open {display:block;}
     grid-column: 3;
     background-color: transparent;
     border: none;
+    padding: 0;
     font-size: 2rem;
     color: #fff;
 }
