@@ -16,4 +16,11 @@ window.onload = function() {
     year = new Date().getFullYear();
 
     currentYear.textContent = year;
+
+    const now = new Date();
+    const currentDate = new Intl.DateTimeFormat("en-UK", {
+        dateStyle: "full"
+    }).format(now);
+
+    document.getElementById('currentDate').textContent = currentDate;
 }
