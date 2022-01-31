@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 /* HEADER */
 header {
     background-color: var(--primary-color);
+    /* background-image: linear-gradient(var(--primary-color), var(--second-color)); */
     padding: 1rem;
     display: grid;
     grid-template-columns: 5fr 1fr .7fr;
@@ -61,6 +62,8 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    transition: background-color .5s;
 }
 
 nav ul {display:none;}
@@ -117,6 +120,7 @@ nav ul.open {display:block;}
 
 /* DATE */
 .header-date {
+    border-radius: 1rem;
     text-align: center;
     grid-row: 3;
     grid-column: 1 / 4;
@@ -154,6 +158,7 @@ main div {
 /* FOOTER */
 footer {
     background-color: var(--primary-color);
+    /* background-image: linear-gradient(var(--second-color), var(--primary-color)); */
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -177,4 +182,22 @@ footer {
 .final-info > hr {
     margin: 1.5rem 0 1rem;
     border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.announcement {
+    background-color: var(--accent-color);
+    text-align: center;
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    display: none;
+}
+
+.announcement button {
+    background-color: transparent;
+    border: none;
+}
+
+.announcement.visible {
+    display: block;
 }

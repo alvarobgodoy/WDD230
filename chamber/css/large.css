@@ -100,4 +100,16 @@ main {
 .final-info p {
     display: inline;
 }
+
+.announcement {
+    display: none;
+}
+
+.announcement button {
+    float: right;
+}
+
+.announcement.visible {
+    display: block;
+}
 }
