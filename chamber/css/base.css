@@ -17,8 +17,18 @@ html {
     /* font-size: 16px; */
 }
 
+body {
+    /* background-image: linear-gradient(var(--second-color), var(--third-color)); */
+    background-image: linear-gradient(var(--third-color), var(--accent-color));
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
+}
+
+#content {
+    margin: 0 auto;
+    max-width: 75rem;
 }
 
 /* HEADER */
@@ -26,10 +36,15 @@ header {
     background-color: var(--primary-color);
     /* background-image: linear-gradient(var(--primary-color), var(--second-color)); */
     padding: 1rem;
+    color: white;
+}
+
+.header-container {
+    max-width: calc(75rem - 3rem);
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 5fr 1fr .7fr;
     align-items: center;
-    color: white;
 }
 
 nav {
@@ -134,19 +149,100 @@ nav ul.open {display:block;}
 /* MAIN */
 
 main {
-    padding: .5rem;
     display: grid;
-    gap: .5rem;
+    gap: 1rem;
+    background-image: linear-gradient(var(--third-color), var(--accent-color));
 }
 
-main div {
-    padding: 3em;
-    background-color: rgb(189, 189, 189);
-    border: 1px solid black;
+main > div {
+    background-color: rgba(0,0,0,0.4);
+    padding: .7rem;
+    color: white;
+    text-align: center;
+}
+
+main img {
+    width: 40%;
+}
+
+main a {
+    text-decoration: none;
+    color: var(--accent-color);
+    margin: 0;
+}
+
+.hero {
+    padding: 0;
+    position: relative;  
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero button {
+    position: absolute;
+    bottom: .7rem;
+    right: .7rem;
+    background-image: linear-gradient(to bottom right, var(--third-color), var(--accent-color));
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    width: 50%;
+    padding: .5rem;
+    box-shadow: 0 0 10px 2px grey;
+}
+
+.hero h2 {
+    margin: 0;
+    position: absolute;
+    top: .7rem;
+    left: .7rem;
+    font-size: 2rem;
+    text-shadow: 0px 0px 15px black;
+    display: none;
+}
+
+.hero button:hover {
+    background-image: none;
+    background-color: var(--accent-color);
+}
+
+.join button {
+    margin-top: 1rem;
+    background-image: linear-gradient(to bottom right, var(--third-color), var(--accent-color));
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: .5rem;
+}
+
+.join button:hover {
+    background-image: none;
+    background-color: var(--accent-color);
 }
 
 .spotlights div:nth-child(3) {
     display: none;
+}
+
+.spotlights > div {
+    padding: .7rem;
+    border: 1px solid white;
+    /* box-shadow: 0px 0px 10px 1px black inset; */
+    /* box-shadow: 0px 0px 10px 1px black; */
+}
+
+.spotlights div h2 {
+    margin: 0;
+}
+
+.spotlights div p {
+    margin: 0;
 }
 
 .join {
@@ -162,6 +258,11 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+.footer-container {
+    max-width: calc(75rem - 3rem);
+    margin: 0 auto;
 }
 
 .footer-main img {
@@ -184,20 +285,23 @@ footer {
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.announcement {
-    background-color: var(--accent-color);
-    text-align: center;
-    padding: .5rem;
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+.final-info span:nth-child(2) {
     display: none;
 }
 
-.announcement button {
+.announcement {
+    display: none;
+}
+
+#annBtn {
     background-color: transparent;
     border: none;
 }
 
 .announcement.visible {
-    display: block;
+    background-image: linear-gradient(to right, var(--third-color), var(--accent-color));
+    text-align: center;
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }

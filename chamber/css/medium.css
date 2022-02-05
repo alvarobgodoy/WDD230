@@ -23,11 +23,17 @@ nav ul {
 main {
     padding: 1rem;
     display: grid;
+    gap: .5rem;
     grid-template-columns: 6fr 4fr;
+    background-image: none;
 }
 
 .hero {
     grid-column: span 2;
+}
+
+.hero h2 {
+    display: block;
 }
 
 .event {
@@ -61,7 +67,7 @@ main {
 
 /* FOOTER */
 
-footer {
+.footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;

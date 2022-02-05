@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Home page of the Liberty Chamber of Commerce. Built for WDD 230 course.">
     <title>Liberty Chamber of Commerce</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/medium.css">
@@ -18,8 +19,9 @@
         <button id="annBtn">&#10005;</button>
     </section>
     <header>
+        <div class="header-container">
         <div class="header-logo">
-            <img src="./images/logo-white.svg" alt="Website logo">
+            <a href="./index.html"><img src="./images/logo-white.svg" alt="Website logo"></a>
             <div class="headings">
                 <h1>Liberty</h1>
                 <div class="motto">Chamber of Commerce</div>
@@ -38,23 +40,61 @@
             <a href="#"><img src="./images/facebook-logo.png" alt="Facebook logo"></a>
             <a href="#"><img src="./images/linkedin-logo.png" alt="Linkedin logo"></a>
         </div>
+        </div>
         <div class="header-date"><span id="currentDate"></span></div>
     </header>
+    <div id="content">
     <main>
-        <div class="hero">Hero</div>
-        <div class="event">Event</div>
-        <div class="weather">Weather</div>
-        <div class="new-release">New Release</div>
-        <div class="join">Join</div>
-        <div class="spotlights">
-            <div>Spotlight 1</div>
-            <div>Spotlight 2</div>
-            <div>Spotlight 3</div>
+        <div class="hero">
+            <img src="./images/obelisco.jpg" alt="">
+            <h2>Welcome to the future!</h2>
+            <button>Join the Chamber</button>
         </div>
+        <div class="event">
+            <h2>Ribbon Cutting</h2>
+            <h3>The diamond Shack 💎</h3>
+            <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00PM</p>
+            <a href="#">more info...</a>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <img src="./images/weather.svg" alt="Weather icon">
+        </div>
+        <div class="new-release">
+            <h2>News Release</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, totam reiciendis sit quo at sapiente officia, repellendus tempora, facere nam dicta beatae assumenda provident omnis enim et quia autem veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui, nobis libero rerum.</p>
+        </div>
+        <div class="join">
+            <button>Join us!</button>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+        </div>
+        <div class="spotlights">
+            <div>
+                <h2>Thankful Transport</h2>
+                <img src="./images/truck.svg" alt="Truck icon">
+                <p>"We get it there for you!"</p>
+                <p>hello@thankfultransport.com</p>
+                <a href="#">www.thankfultransport.com</a>
+            </div>
+            <div>
+                <h2>Code Primera</h2>
+                <img src="./images/code.svg" alt="Coding icon">
+                <p>An after school coding instructional program.</p>
+                <p>contact@codeprimera.com</p>
+                <a href="#">www.codeprimera.com</a></div>
+            <div>
+                <h2>Build a Treefort</h2>
+                <img src="./images/treehouse.svg" alt="Tree House icon">
+                <p>Over 1000 Plans!</p>
+                <p>build@treefort.com</p>
+                <a href="#">www.treefort.com</a></div>
+            </div>
     </main>
+    </div>
     <footer>
+        <div class="footer-container">
         <div class="footer-main">
-            <img src="./images/logo-white.svg" alt="Website logo">
+            <a href="./index.html"><img src="./images/logo-white.svg" alt="Website logo"></a>
             <div>
                 <h2>Liberty Chamber of Commerce</h2>
                 <p>Entre Ríos Avenue, C1033</p>
@@ -68,8 +108,9 @@
         </div>
         <div class="final-info">
             <hr>
-            <p>© <span id="currentYear"></span> Liberty Chamber | Alvaro B. Godoy | WDD 230 Project</p>
+            <p>© <span id="currentYear"></span> Liberty Chamber | Alvaro B. Godoy | WDD 230 Project<span> |</span></p>
             <p id="lastUpdate"></p>
+        </div>
         </div>
     </footer>
 </body>
