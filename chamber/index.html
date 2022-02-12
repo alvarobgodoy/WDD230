@@ -20,33 +20,40 @@
     </div>
     <header>
         <div class="header-container">
-        <div class="header-logo">
-            <a href="./index.html"><img src="./images/logo-white.svg" alt="Website logo"></a>
-            <div class="headings">
-                <h1>Liberty</h1>
-                <div class="motto">Chamber of Commerce</div>
+            <div class="header-logo">
+                <a href="./index.html"><img src="./images/logo-white.webp" alt="Website logo"></a>
+                <div class="headings">
+                    <h1>Liberty</h1>
+                    <div class="motto">Chamber of Commerce</div>
+                </div>
+            </div>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>&#10005;</span></button>
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-socials">
+                <a href="#"><img src="./images/facebook-logo.png" alt="Facebook logo"></a>
+                <a href="#"><img src="./images/linkedin-logo.png" alt="Linkedin logo"></a>
+            </div>
+            <div class="header-date">
+                <span id="currentDate"></span>
             </div>
         </div>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>&#10005;</span></button>
-        <nav>
-            <ul id="primaryNav">
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="header-socials">
-            <a href="#"><img src="./images/facebook-logo.png" alt="Facebook logo"></a>
-            <a href="#"><img src="./images/linkedin-logo.png" alt="Linkedin logo"></a>
-        </div>
-        </div>
-        <div class="header-date"><span id="currentDate"></span></div>
     </header>
     <div id="content">
     <main>
         <div class="hero">
-            <img src="./images/obelisco.jpg" alt="">
+            <!-- <img src="./images/obelisco.jpg" alt=""> -->
+            <picture>
+                <source media="(min-width: 40rem) and (max-width: 64rem)" srcset="./images/medium1000x600.jpg">
+                <source media="(min-width: 64rem)" srcset="./images/large600x500.jpg">
+                <img src="./images/small700x400.jpg" alt="">
+            </picture>
             <h2>Welcome to the future!</h2>
             <button>Join the Chamber</button>
         </div>
@@ -58,7 +65,14 @@
         </div>
         <div class="weather">
             <h2>Weather</h2>
-            <img src="./images/weather.svg" alt="Weather icon">
+            <div class="weather-container">
+                <img src="./images/weather.svg" alt="Weather icon">
+                <p><span id="temperature">8</span>ºF</p>
+            </div>
+            <h3>Partly Cloudy</h3>
+            <hr>
+            <p>Wind Speed: <span id="wind-speed">5</span>mph</p>
+            <p>Wind Chill: <span id="wind-chill"></span>F</p>
         </div>
         <div class="new-release">
             <h2>News Release</h2>
@@ -69,20 +83,20 @@
             <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
         </div>
         <div class="spotlights">
-            <div>
+            <div class="spotlight1">
                 <h2>Thankful Transport</h2>
                 <img src="./images/truck.svg" alt="Truck icon">
                 <p>"We get it there for you!"</p>
                 <p>hello@thankfultransport.com</p>
                 <a href="#">www.thankfultransport.com</a>
             </div>
-            <div>
+            <div class="spotlight2">
                 <h2>Code Primera</h2>
                 <img src="./images/code.svg" alt="Coding icon">
                 <p>An after school coding instructional program.</p>
                 <p>contact@codeprimera.com</p>
                 <a href="#">www.codeprimera.com</a></div>
-            <div>
+            <div class="spotlight3">
                 <h2>Build a Treefort</h2>
                 <img src="./images/treehouse.svg" alt="Tree House icon">
                 <p>Over 1000 Plans!</p>
@@ -94,7 +108,7 @@
     <footer>
         <div class="footer-container">
         <div class="footer-main">
-            <a href="./index.html"><img src="./images/logo-white.svg" alt="Website logo"></a>
+            <a href="./index.html"><img src="./images/logo-white.webp" alt="Website logo"></a>
             <div>
                 <h2>Liberty Chamber of Commerce</h2>
                 <p>Entre Ríos Avenue, C1033</p>
@@ -113,5 +127,6 @@
         </div>
         </div>
     </footer>
+    <script src="./js/windchill.js"></script>
 </body>
 </html>

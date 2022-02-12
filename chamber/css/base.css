@@ -77,7 +77,6 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.5);
-    border-radius: 1rem;
     transition: background-color .5s;
 }
 
@@ -248,6 +247,32 @@ main a {
 .join {
     display: none;
 }
+
+.weather-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.weather-container p {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.weather-container img {
+    width: 25%;
+}
+
+
+.weather h2 {
+    margin: 0 0 .5rem;
+}
+
+.weather h3 {
+    margin: 0;
+    margin-top: .5rem;
+}
+
 
 /* END MAIN */
 

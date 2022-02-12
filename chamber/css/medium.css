@@ -52,6 +52,18 @@ main {
 
 .spotlights {
     grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.spotlight1 {
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.spotlight2 {
+    grid-row: 4;
+    grid-column: 2;
 }
 
 .spotlights div:nth-child(3) {
