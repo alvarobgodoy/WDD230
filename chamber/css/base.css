@@ -18,8 +18,7 @@ html {
 }
 
 body {
-    /* background-image: linear-gradient(var(--second-color), var(--third-color)); */
-    background-image: linear-gradient(var(--third-color), var(--accent-color));
+    background-color: #8A59FF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,6 +44,11 @@ header {
     display: grid;
     grid-template-columns: 5fr 1fr .7fr;
     align-items: center;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: white;
 }
 
 nav {
@@ -80,6 +84,10 @@ nav ul li a:hover {
     transition: background-color .5s;
 }
 
+.nav-active {
+    background-color: rgba(0,0,0,0.5);
+}
+
 nav ul {display:none;}
 nav ul.open {display:block;}
 
@@ -111,7 +119,7 @@ nav ul.open {display:block;}
     margin-right: 1em;
 }
 
-.headings h1 {
+.headings h2 {
     font-size: 1.6rem;
     margin: 0;
 }
@@ -149,17 +157,17 @@ nav ul.open {display:block;}
 main {
     display: grid;
     gap: 1rem;
-    background-image: linear-gradient(var(--third-color), var(--accent-color));
+    background-color: var(--third-color);
 }
 
 main > div {
-    background-color: rgba(0,0,0,0.4);
+    background-color: var(--second-color);
     padding: .7rem;
     color: white;
     text-align: center;
 }
 
-main img {
+main > div img {
     width: 40%;
 }
 
@@ -183,7 +191,7 @@ main a {
     position: absolute;
     bottom: .7rem;
     right: .7rem;
-    background-image: linear-gradient(to bottom right, var(--third-color), var(--accent-color));
+    background-color: var(--accent-color);
     border: none;
     border-radius: 10px;
     color: white;
@@ -203,14 +211,19 @@ main a {
     display: none;
 }
 
-.hero button:hover {
-    background-image: none;
-    background-color: var(--accent-color);
+.hero button:hover, .join button:hover {
+    background-color: #fff;
+    color: var(--accent-color);
+    transition: background-color .5s;
+}
+
+.hero button:active, .join button:active {
+    transform: translateY(1px)
 }
 
 .join button {
     margin-top: 1rem;
-    background-image: linear-gradient(to bottom right, var(--third-color), var(--accent-color));
+    background-color: var(--accent-color);
     border: none;
     border-radius: 10px;
     color: white;
@@ -219,18 +232,30 @@ main a {
     padding: .5rem;
 }
 
-.join button:hover {
-    background-image: none;
-    background-color: var(--accent-color);
+.event h2 {
+    margin: .5rem 0 0;
 }
 
-.spotlights div:nth-child(3) {
+.event h3 {
+    margin: .5rem 0 0;
+}
+
+.spotlight3 {
     display: none;
+}
+
+.spotlight1 {
+    border-bottom: 1px white solid;
+    margin-bottom: .7rem;
+    padding-bottom: .7rem;
+}
+
+.spotlights img {
+    max-width: 120px;
 }
 
 .spotlights > div {
     padding: .7rem;
-    border: 1px solid white;
 }
 
 .spotlights div h2 {
@@ -262,14 +287,13 @@ main a {
 
 
 .weather h2 {
-    margin: 0 0 .5rem;
+    margin: .5rem 0 .5rem;
 }
 
 .weather h3 {
     margin: 0;
     margin-top: .5rem;
 }
-
 
 /* END MAIN */
 
@@ -325,4 +349,36 @@ footer {
     padding: .5rem;
     display: grid;
     grid-template-columns: 4fr 1fr;
+}
+
+/* ***************** DISCOVER ***************** */
+
+.gallery {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 1rem 0;
+    background-color: var(--second-color);
+    text-align: center;
+    /* display: block; */
+}
+
+.gallery h1 {
+    margin: 0 0 1rem;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.gallery img {
+    width: 100%;
+    display: block;
+}
+
+.gallery-description {
+    color: #fff;
+    margin: .4rem 0 3rem;
+}
+
+.img-gallery9 p {
+    margin-bottom: 2rem;
 }

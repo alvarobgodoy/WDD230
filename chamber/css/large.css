@@ -1,7 +1,7 @@
 @media only screen and (min-width: 64rem) {
 
 .header-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr .3fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr .1fr;
 }
 
 #hamburgerBtn {
@@ -11,6 +11,10 @@
 .header-socials {
     grid-row: 1;
     grid-column: 5;
+}
+
+.header-socials a:first-child img {
+    margin-bottom: .5rem;
 }
 
 .header-date {
@@ -34,12 +38,16 @@ nav ul#primaryNav {
 
 nav ul li a {
     display: block;
-    padding: 1.2rem 2.5rem;
+    padding: 1.2rem 2rem;
     background-color: rgba(0,0,0,0);
 }
 
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
+}
+
+.nav-active {
+    background-color: rgba(0,0,0,0);
 }
 
 /* MAIN */
@@ -51,6 +59,11 @@ main {
 .hero {
     grid-column: 2;
     grid-row: 1 / span 2;
+    overflow: hidden;
+}
+
+.hero img {
+    width: auto;
 }
 
 .event {
@@ -74,7 +87,12 @@ main {
     grid-row: 1 / span 3;
 }
 
-.spotlights div:nth-child(3) {
+.spotlight1, .spotlight2 {
+    border-right: none;
+    border-bottom: 1px white solid;
+}
+
+.spotlight3 {
     display: block;
 }
 
@@ -115,5 +133,15 @@ main {
 
 .announcement.visible {
     display: block;
+}
+
+/* ***************** DISCOVER ***************** */
+
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery h1 {
+    grid-column: span 3;
 }
 }

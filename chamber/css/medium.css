@@ -9,7 +9,7 @@ nav ul {
     margin-right: 1em;
 }
 
-.headings h1 {
+.headings h2 {
     font-size: 3.2rem;
     margin: 0;
 }
@@ -57,6 +57,13 @@ main {
 }
 
 .spotlight1 {
+    border-bottom: none;
+    border-right: 1px white solid;
+    margin: 0;
+    padding: 0;
+}
+
+.spotlight1 {
     grid-row: 4;
     grid-column: 1;
 }
@@ -66,7 +73,7 @@ main {
     grid-column: 2;
 }
 
-.spotlights div:nth-child(3) {
+.spotlight3 {
     display: none;
 }
 
@@ -110,4 +117,68 @@ main {
 .footer-info p {
     margin: .5rem 0;
 }
+
+/* ***************** DISCOVER ***************** */
+
+.gallery {
+    padding: 1rem 1rem;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.gallery h1 {
+    grid-column: span 2;
+    margin: 0;
+}
+
+.gallery-description {
+    margin: .4rem 0 2rem;
+}
+
+.img-gallery7 p, .img-gallery8 p, .img-gallery9 p {
+    margin-bottom: 1rem;
+}
+
+
+.test-shine {
+    position: relative;
+    overflow: hidden;
+}
+
+.test-shine:after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+  
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+  
+  /* Hover state - trigger effect */
+  .test-shine:hover:after {
+    opacity: 1;
+    left: 130%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  
+  /* Active state */
+  .test-shine:active:after {
+    opacity: 0;
+  }
+
 }
