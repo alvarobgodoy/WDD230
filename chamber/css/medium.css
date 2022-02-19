@@ -142,12 +142,12 @@ main {
 }
 
 
-.test-shine {
+.shine {
     position: relative;
     overflow: hidden;
 }
 
-.test-shine:after {
+.shine:after {
     content: "";
     position: absolute;
     top: -50%;
@@ -168,7 +168,7 @@ main {
   }
   
   /* Hover state - trigger effect */
-  .test-shine:hover:after {
+  .shine:hover:after {
     opacity: 1;
     left: 130%;
     transition-property: left, top, opacity;
@@ -177,7 +177,7 @@ main {
   }
   
   /* Active state */
-  .test-shine:active:after {
+  .shine:active:after {
     opacity: 0;
   }
 

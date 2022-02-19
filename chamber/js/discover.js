@@ -44,10 +44,31 @@ if (lastVisit == null) {
     lastVisitDays = Math.round(lastVisitDays);
     if (lastVisitDays == 0) {
         message = 'Today was your first visit to our site!';
+    } else if (lastVisitDays == 1) {
+        message = `It's been ${lastVisitDays} day since your last visit`
     } else {
-        message = `It's been ${lastVisitDays} days since your last visit`
+      message = `It's been ${lastVisitDays} days since your last visit`
     }
 }
 
 document.getElementById('lastVisit').textContent = message;
 localStorage.setItem("last-visit", thisVisit);
+
+// Footer
+let lastModified = document.lastModified;
+    
+document.getElementById('lastUpdate').textContent = (`Last modification: ${lastModified}`);
+let currentYear = document.querySelector('#currentYear');
+
+year = new Date().getFullYear();
+
+currentYear.textContent = year;
+
+// Menu
+function toggleMenu() {
+  document.getElementById('primaryNav').classList.toggle('open');
+  document.getElementById('hamburgerBtn').classList.toggle('open');
+}
+
+const btn = document.getElementById('hamburgerBtn');
+btn.onclick = toggleMenu;
