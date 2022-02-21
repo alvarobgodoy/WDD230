@@ -1,0 +1,62 @@
+:root {
+    --main: #628CA6;
+    --second: #7FB9C2;
+    --third: #E7FFED;
+    --cell-background: #E7F0ED;
+    --border: #AAB2B7;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+}
+
+table {
+    max-width: fit-content;
+    margin: 10rem auto;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 8px 8px 15px 3px var(--main);
+}
+
+thead tr:first-child th {
+    background-color: var(--second);
+    font-size: 1.7rem;
+}
+
+thead tr:nth-child(2) th {
+    background-color: var(--main);
+    color: #fff;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: var(--third);
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: var(--cell-background);
+}
+
+tbody tr:nth-child(4) td:nth-child(3) {
+    background-color: var(--main);
+    color: #fff;
+}
+
+td, th {
+    padding: .3rem;
+    border: 1px var(--border) solid;
+}
+
+tfoot {
+    background-color: var(--second);
+    font-size: .8rem;
+}
+
+/* FOOTER  */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
