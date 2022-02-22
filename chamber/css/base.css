@@ -198,7 +198,6 @@ main a {
     font-size: 1.5rem;
     width: 50%;
     padding: .5rem;
-    box-shadow: 0 0 10px 2px grey;
 }
 
 .hero h2 {
@@ -311,7 +310,6 @@ footer {
 }
 
 .footer-main img {
-    /* float: left; */
     width: 6rem;
     margin-right: 1em;
 }
@@ -344,7 +342,7 @@ footer {
 }
 
 .announcement.visible {
-    background-image: linear-gradient(to right, var(--third-color), var(--accent-color));
+    background-color: var(--accent-color);
     text-align: center;
     padding: .5rem;
     display: grid;
@@ -359,7 +357,6 @@ footer {
     padding: 1rem 0;
     background-color: var(--second-color);
     text-align: center;
-    /* display: block; */
 }
 
 .gallery h1 {
@@ -382,3 +379,7 @@ footer {
 .img-gallery9 p {
     margin-bottom: 2rem;
 }
+
+
+/* ***************** JOIN ***************** */
+
