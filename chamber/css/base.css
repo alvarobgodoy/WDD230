@@ -154,30 +154,30 @@ nav ul.open {display:block;}
 
 /* MAIN */
 
-main {
+.home-main {
     display: grid;
     gap: 1rem;
     background-color: var(--third-color);
 }
 
-main > div {
+.home-main > div {
     background-color: var(--second-color);
     padding: .7rem;
     color: white;
     text-align: center;
 }
 
-main > div img {
+.spotlights img {
     width: 40%;
 }
 
-main a {
+.home-main div > a {
     text-decoration: none;
     color: var(--accent-color);
     margin: 0;
 }
 
-.hero {
+.home-main .hero {
     padding: 0;
     position: relative;  
 }
@@ -187,7 +187,7 @@ main a {
     height: 100%;
 }
 
-.hero button {
+.hero .joinBtn1 {
     position: absolute;
     bottom: .7rem;
     right: .7rem;
@@ -210,26 +210,39 @@ main a {
     display: none;
 }
 
-.hero button:hover, .join button:hover {
+.joinBtn1, .joinBtn2 {
+    color: #fff;
+}
+
+.joinBtn1:hover, .joinBtn2:hover {
     background-color: #fff;
     color: var(--accent-color);
     transition: background-color .5s;
 }
 
-.hero button:active, .join button:active {
+.joinBtn1:active, .joinBtn2:active {
     transform: translateY(1px)
 }
 
-.join button {
+.joinBtn2 {
     margin-top: 1rem;
     background-color: var(--accent-color);
     border: none;
     border-radius: 10px;
     color: white;
     font-size: 1.5rem;
-    width: 100%;
     padding: .5rem;
 }
+
+#joinlink2 {
+    color: white;
+    display: block;
+}
+
+#joinlink2:hover {
+    color: var(--accent-color);
+}
+
 
 .event h2 {
     margin: .5rem 0 0;
@@ -380,6 +393,99 @@ footer {
     margin-bottom: 2rem;
 }
 
+/* ***************** THANK YOU  ***************** */
+
+.thanks-main {
+    max-width: 30rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: var(--second-color);
+}
+
+.thanks-main a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.footer-thanks {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 /* ***************** JOIN ***************** */
 
+.join-main {
+    max-width: 30rem;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.required-symbol {
+    color: red;
+}
+
+.join-form {
+    background-color: var(--second-color);
+    padding: 1rem;
+}
+
+.join-form fieldset {
+    border: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.join-form fieldset legend h3 {
+    font-size: 1.3rem;
+    margin: 1rem 0 0;
+}
+
+.join-form label  {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.1em;
+}
+
+.join-form label.top input, .join-form label.top textarea {
+    display: block;
+    padding: 0.3rem;
+    width: 100%;
+}
+
+.join-form label.side {
+    margin: 1rem 0;
+}
+
+#joinSubmitBtn {
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+    padding: .5rem;
+    margin: 1rem 0 0;
+    width: 100%;
+}
+
+#joinSubmitBtn:hover {
+    background-color: #fff;
+    color: var(--accent-color);
+    transition: background-color .5s;
+    cursor: pointer;
+}
+
+#joinSubmitBtn:active {
+    transform: translateY(1px);
+}
+
+.join-form label.top input:required {
+    border: none;
+    border-left: red solid 6px;
+}
+
+.join-form label.top input:required:valid {
+    border-left: green solid 6px;
+}

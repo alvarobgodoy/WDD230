@@ -16,3 +16,14 @@ function toggleMenu() {
 
 const btn = document.getElementById('hamburgerBtn');
 btn.onclick = toggleMenu;
+
+const thisVisit = Date.now();
+let inputHiddenEl = document.getElementById('inputHidden').setAttribute('value', thisVisit);
+
+// Header date
+const now = new Date();
+const currentDate = new Intl.DateTimeFormat("en-UK", {
+    dateStyle: "full"
+}).format(now);
+
+document.getElementById('currentDate').textContent = currentDate;

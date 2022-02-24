@@ -52,7 +52,7 @@ nav ul li a:hover {
 
 /* MAIN */
 
-main {
+.home-main {
     grid-template-columns: 1fr 2fr 1fr;
 }
 

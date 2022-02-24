@@ -20,7 +20,7 @@ nav ul {
 
 /* MAIN */
 
-main {
+.home-main {
     padding: 1rem;
     display: grid;
     gap: .5rem;
@@ -181,4 +181,16 @@ main {
     opacity: 0;
   }
 
+/* ***************** JOIN ***************** */
+
+  .join-main {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.join-form label.top input, .join-form label.top textarea {
+    display: block;
+    padding: 0.3rem;
+    width: 70%;
+}
 }

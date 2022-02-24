@@ -28,10 +28,10 @@
             <button id="hamburgerBtn"><span>&#9776;</span><span>&#10005;</span></button>
             <nav>
                 <ul id="primaryNav">
-                    <li><a href="./index.html" class="nav-active">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="./discover.html">Discover</a></li>
                     <li><a href="#">Directory</a></li>
-                    <li><a href="#">Join</a></li>
+                    <li><a href="./join.html" class="nav-active">Join</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -44,17 +44,44 @@
             </div>
         </div>
     </header>
-    <form method="get" action="thankyou.html">
-        <legend>Sample</legend>
-        <fieldset>
-            <label>First Name* <input type="text" name="fname" required></label>
-            <label>Last Name* <input type="text" name="lname" required></label>
-            <label>Title <input type="text" name="position" pattern="[-\w ]{7,}"></label>
-            <label>Email* <input type="email" name="email" placeholder="youremail@email.com" required></label>
-            <label>Phone* <input type="tel" name="phone" required></label>
-        </fieldset>
-        <input type="submit" value="submit" class="submitBtn">
-    </form>
+    <main class="join-main">
+        <form method="get" action="thankyou.html" class="join-form">
+            <h2>Join the Chamber</h2>
+            <hr>
+            <fieldset>
+                <legend><h3>Register your business</h3></legend>
+                <label class="top">First Name<span class="required-symbol">*</span> 
+                    <input type="text" name="fname" required></label>
+                <label class="top">Last Name<span class="required-symbol">*</span> 
+                    <input type="text" name="lname" required></label>
+                <label class="top">Email<span class="required-symbol">*</span> 
+                    <input type="email" name="email" placeholder="youremail@email.com" required></label>
+                <label class="top">Phone<span class="required-symbol">*</span> 
+                    <input type="tel" name="phone" required></label>
+                <label class="top">Business Name<span class="required-symbol">*</span> 
+                    <input type="text" name="bname" required></label>
+                <label class="top">Business Position 
+                    <input type="text" name="bposition" pattern="[-\w ]{7,}"></label>
+                <label class="top">Description 
+                    <textarea name="bdescription" rows="4"></textarea></label>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend><h3>Select Membership</h3></legend>
+                <label class="side">
+                    <input type="radio" name="membership" value="nonProfit" required> Non Profit</label>
+                <label class="side">
+                    <input type="radio" name="membership" value="bronze"> Bronze</label>
+                <label class="side">
+                    <input type="radio" name="membership" value="silver"> Silver</label>
+                <label class="side">
+                    <input type="radio" name="membership" value="gold"> Gold</label>
+                <input type="hidden" name="currentdate" id="inputHidden">
+            </fieldset>
+            <hr>
+            <input type="submit" value="Register My Business" id="joinSubmitBtn">
+        </form>
+    </main>
     <footer>
         <div class="footer-container">
         <div class="footer-main">
