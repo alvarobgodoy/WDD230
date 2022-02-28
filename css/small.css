@@ -9,7 +9,7 @@ main, footer {
 }
 
 #content {
-    max-width: 500px;
+    max-width: 600px;
     min-width: min-content;
     margin: 0 auto;
 }
@@ -53,6 +53,7 @@ main h2 {
 
 main ul li {
     list-style: none;
+    margin: .5rem 0;
 }
 
 /* FOOTER */
