@@ -489,3 +489,95 @@ footer {
 .join-form label.top input:required:valid {
     border-left: green solid 6px;
 }
+
+/* ***************** DIRECTORY ***************** */
+
+.directory-header {
+    border-bottom: 2px #0B00B6 solid;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#viewBtn {
+    width: 4rem;
+    border: none;
+    background-color: transparent;
+    padding: .7rem;
+}
+
+#viewBtn:active {
+    transform: translateY(1px);
+}
+
+#viewBtn span:nth-child(1) {display: block;}
+#viewBtn span:nth-child(2) {display: none;}
+
+#viewBtn.active span:nth-child(1) {display: none;}
+#viewBtn.active span:nth-child(2) {display: block;}
+
+.directory-header img {
+    width: 100%;
+}
+
+.directory-main {
+    background-color: var(--second-color);
+    color: #fff;
+}
+
+#directory {
+    text-align: center;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#directory.active {
+    display: block;
+}
+
+#directory section {
+    padding: 1rem;
+    background-color: var(--second-color);
+    border-bottom: 2px #0B00B6 solid;
+}
+
+#directory section p:nth-child(2) {
+    display: none;
+}
+
+#directory section p:nth-child(3) {
+    margin-top: 0;
+}
+
+#directory section a:nth-child(5) {
+    color: #FF6942;
+}
+
+#directory section img {
+    margin-bottom: 1rem;
+    width: 50%;
+    border-radius: 1rem;
+    border: 2px var(--primary-color) solid;
+}
+
+#directory.active section {
+    text-align: left;
+}
+
+#directory.active section:nth-child(odd) {
+    background-color: #4920df;
+}
+
+#directory.active section img {
+    display: none;
+}
+
+#directory.active section p:nth-child(2) {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 0;
+}

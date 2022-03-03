@@ -144,4 +144,12 @@ nav ul li a:hover {
 .gallery h1 {
     grid-column: span 3;
 }
+
+/* ***************** DIRECTORY ***************** */
+
+.directory-main {
+    margin: 1rem auto;
+    border-left: 2px #0B00B6 solid;
+    border-right: 2px #0B00B6 solid;
+}
 }

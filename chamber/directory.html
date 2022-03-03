@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page of the Liberty Chamber of Commerce. Built for WDD 230 course.">
+    <title>Liberty Chamber of Commerce</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <script defer src="./js/directory.js"></script>
+</head>
+<body>
+    <div class="announcement">
+        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        <button id="annBtn">&#10005;</button>
+    </div>
+    <header>
+        <div class="header-container">
+            <a href="./index.html">
+                <div class="header-logo">
+                    <img src="./images/logo-white.webp" alt="Website logo">
+                    <div class="headings">
+                        <h2>Liberty</h2>
+                        <div class="motto">Chamber of Commerce</div>
+                    </div>
+                </div>
+            </a>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>&#10005;</span></button>
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./discover.html">Discover</a></li>
+                    <li><a href="./directory.html" class="nav-active">Directory</a></li>
+                    <li><a href="./join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-socials">
+                <a href="#"><img src="./images/facebook-logo.png" alt="Facebook logo"></a>
+                <a href="#"><img src="./images/linkedin-logo.png" alt="Linkedin logo"></a>
+            </div>
+            <div class="header-date">
+                <span id="currentDate"></span>
+            </div>
+        </div>
+    </header>
+    <main class="directory-main">
+        <div class="directory-header">
+            <h2>Business Directory</h2>
+            <div class="directory-btns">
+                <button id="viewBtn" onclick="toogleView()">
+                    <span><img src="./images/grid-icon.svg" alt="Grid view"></span>
+                    <span><img src="./images/list-icon.svg" alt="List view"></span>
+                </button>
+            </div>
+        </div>
+        <div id="directory">
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+        <div class="footer-main">
+            <a href="./index.html"><img src="./images/logo-white.webp" alt="Website logo"></a>
+            <div>
+                <h2>Liberty Chamber of Commerce</h2>
+                <p>Entre Ríos Avenue, C1033</p>
+                <p>Autonomous City of Buenos Aires</p>
+            </div>
+        </div>
+        <div class="footer-info">
+            <p>info@libertychamber.org</p>
+            <p>+1 (234) 5678-9012</p>
+            <div class="footer-location">📍 Location Map</div>
+        </div>
+        <div class="final-info">
+            <hr>
+            <p>© <span id="currentYear"></span> Liberty Chamber | Alvaro B. Godoy | WDD 230 Project<span> |</span></p>
+            <p id="lastUpdate"></p>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>

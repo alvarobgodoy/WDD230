@@ -193,4 +193,29 @@ nav ul {
     padding: 0.3rem;
     width: 70%;
 }
+
+/* ***************** DIRECTORY ***************** */
+
+.directory-main {
+    margin: 0 auto;
+    max-width: 73rem;
+    border-top: 2px #0B00B6 solid;
+}
+
+.directory-header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+#directory.active section {
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#directory.active section p {
+    margin: 0;
+}
 }
