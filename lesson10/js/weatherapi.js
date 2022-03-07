@@ -1,4 +1,4 @@
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=1384e4ca3e82ee8fd20b1bc49b14a713';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=1384e4ca3e82ee8fd20b1bc49b14a713';
 let weatherData;
 
 fetch(apiURL)
