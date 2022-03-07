@@ -1,0 +1,13 @@
+body {
+    max-width: 35rem;
+    margin: 0 auto;
+}
+
+h1 {
+    width: fit-content;
+    border-bottom: 1px grey solid;
+}
+
+figure {
+    margin: 0;
+}
