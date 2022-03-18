@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="./css/base.css">
         <link rel="stylesheet" href="./css/medium.css">
         <link rel="stylesheet" href="./css/large.css">
-        <!-- <script defer src="./js/join.js"></script> -->
+        <script defer src="./js/contact.js"></script>
     </head>
 <body>
     <header>
@@ -39,16 +39,42 @@
                 <a href="#"><img src="./images/facebook-logo.png" alt="Facebook logo"></a>
                 <a href="#"><img src="./images/linkedin-logo.png" alt="Linkedin logo"></a>
             </div>
+            <div class="header-date">
+                <span id="currentDate"></span>
+            </div>
         </div>
     </header>
-    <main class="thanks-main">
-        <div class="thanks-container">
-            <h1>Registration form sent successfully!</h1>
-            <p>Thank you for successfully completing the membership application. We'll process your application and contact you soon.</p>
-            <a href="./index.html">Home page</a>
+    <main class="contact-main">
+        <div class="contact-info">
+            <h1>Contact Us</h1>            
+            <p><strong>Adress</strong></p>
+            <p>Entre Ríos Avenue, C1033. Autonomous City of Buenos Aires</p>
+            <p><strong>Phone</strong></p>
+            <p>+1 (234) 5678-9012</p>
+            <p><strong>Email</strong></p>
+            <p>info@libertychamber.org</p>
+        </div>
+        <div class="contact-form">
+            <form method="get" action="contactform.html" class="join-form">
+                <h2>Contact Form</h2>
+                <hr>
+                <fieldset>
+                    <legend><h3><span class="required-symbol">*</span> Indicates required field</h3></legend>
+                    <label class="top">First Name<span class="required-symbol">*</span> 
+                        <input type="text" name="fname" required></label>
+                    <label class="top">Last Name<span class="required-symbol">*</span> 
+                        <input type="text" name="lname" required></label>
+                    <label class="top">Email<span class="required-symbol">*</span> 
+                        <input type="email" name="email" placeholder="youremail@email.com" required></label>
+                    <label class="top">Question/Concern<span class="required-symbol">*</span> 
+                        <textarea name="bdescription" rows="4" required></textarea></label>
+                </fieldset>
+                <hr>
+                <input type="submit" value="Send my question" id="joinSubmitBtn">
+            </form>
         </div>
     </main>
-    <footer class="footer-thanks">
+    <footer>
         <div class="footer-container">
         <div class="footer-main">
             <a href="./index.html"><img src="./images/logo-white.webp" alt="Website logo"></a>
@@ -62,6 +88,11 @@
             <p>info@libertychamber.org</p>
             <p>+1 (234) 5678-9012</p>
             <div class="footer-location">📍 Location Map</div>
+        </div>
+        <div class="final-info">
+            <hr>
+            <p>© <span id="currentYear"></span> Liberty Chamber | Alvaro B. Godoy | WDD 230 Project<span> |</span></p>
+            <p id="lastUpdate"></p>
         </div>
         </div>
     </footer>

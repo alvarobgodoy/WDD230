@@ -4,7 +4,6 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Corrientes&uni
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject)
 
     // Get and embed the current temperature
     let currentTemp = jsObject.main.temp;

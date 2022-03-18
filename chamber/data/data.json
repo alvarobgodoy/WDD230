@@ -82,6 +82,338 @@
         "phone": "(638) 122-3785",
         "website": "www.tsoft.com",
         "logo": "./images/logo-tsoft.png"
+        },
+        {
+        "name": "Adecco",
+        "address": "4000 Willow Greene Drive",
+        "phone": "(384) 541-0023",
+        "website": "www.adecco.com",
+        "logo": "./images/logo-adecco.webp"
+        },
+        {
+        "name": "Ambar",
+        "address": "4765 Peck Street",
+        "phone": "(904) 726-4530",
+        "website": "www.ambar.com",
+        "logo": "./images/logo-ambar.png"
+        },
+        {
+        "name": "Antena 3",
+        "address": "4084 Lake Road",
+        "phone": "(814) 642-0297",
+        "website": "www.antenatres.com",
+        "logo": "./images/logo-antena3.jpg"
+        },
+        {
+        "name": "Baggio",
+        "address": "1483 Middleville Road",
+        "phone": "(603) 062-9593",
+        "website": "www.baggio.com",
+        "logo": "./images/logo-baggio.png"
+        },
+        {
+        "name": "Consensus",
+        "address": "4340 Lee Avenue",
+        "phone": "(805) 195-1879",
+        "website": "www.consensus.com",
+        "logo": "./images/logo-consensus.png"
+        },
+        {
+        "name": "Experta",
+        "address": "1763 Bloomfield Way",
+        "phone": "(526) 882-4960",
+        "website": "www.expertaseguros.com",
+        "logo": "./images/logo-experta.png"
+        },
+        {
+        "name": "Global",
+        "address": "3013 Seneca Drive",
+        "phone": "(146) 938-6295",
+        "website": "www.global.com",
+        "logo": "./images/logo-global.png"
+        },
+        {
+        "name": "Making Sense",
+        "address": "3004 Bernardo Street",
+        "phone": "(741) 154-7879",
+        "website": "www.makingsense.com",
+        "logo": "./images/logo-making-sense.png"
+        },
+        {
+        "name": "Paladini",
+        "address": "378 Philadelphia Avenue",
+        "phone": "(284) 066-3318",
+        "website": "www.paladini.com",
+        "logo": "./images/logo-paladini.png"
+        },
+        {
+        "name": "Sinteplast",
+        "address": "2423 Brentwood Drive",
+        "phone": "(423) 231-4904",
+        "website": "www.sinteplast.com",
+        "logo": "./images/logo-sinteplast.png"
+        },{
+        "name": "Skyscanner",
+        "address": "2261 Meadow Lane",
+        "phone": "(871) 807-8652",
+        "website": "www.skyscanner.com",
+        "logo": "./images/logo-skyscanner.png"
+        },
+        {
+        "name": "Tsoft",
+        "address": "3873 Gateway Road",
+        "phone": "(638) 122-3785",
+        "website": "www.tsoft.com",
+        "logo": "./images/logo-tsoft.png"
+        },
+        {
+        "name": "Adecco",
+        "address": "4000 Willow Greene Drive",
+        "phone": "(384) 541-0023",
+        "website": "www.adecco.com",
+        "logo": "./images/logo-adecco.webp"
+        },
+        {
+        "name": "Ambar",
+        "address": "4765 Peck Street",
+        "phone": "(904) 726-4530",
+        "website": "www.ambar.com",
+        "logo": "./images/logo-ambar.png"
+        },
+        {
+        "name": "Antena 3",
+        "address": "4084 Lake Road",
+        "phone": "(814) 642-0297",
+        "website": "www.antenatres.com",
+        "logo": "./images/logo-antena3.jpg"
+        },
+        {
+        "name": "Baggio",
+        "address": "1483 Middleville Road",
+        "phone": "(603) 062-9593",
+        "website": "www.baggio.com",
+        "logo": "./images/logo-baggio.png"
+        },
+        {
+        "name": "Consensus",
+        "address": "4340 Lee Avenue",
+        "phone": "(805) 195-1879",
+        "website": "www.consensus.com",
+        "logo": "./images/logo-consensus.png"
+        },
+        {
+        "name": "Experta",
+        "address": "1763 Bloomfield Way",
+        "phone": "(526) 882-4960",
+        "website": "www.expertaseguros.com",
+        "logo": "./images/logo-experta.png"
+        },
+        {
+        "name": "Global",
+        "address": "3013 Seneca Drive",
+        "phone": "(146) 938-6295",
+        "website": "www.global.com",
+        "logo": "./images/logo-global.png"
+        },
+        {
+        "name": "Making Sense",
+        "address": "3004 Bernardo Street",
+        "phone": "(741) 154-7879",
+        "website": "www.makingsense.com",
+        "logo": "./images/logo-making-sense.png"
+        },
+        {
+        "name": "Paladini",
+        "address": "378 Philadelphia Avenue",
+        "phone": "(284) 066-3318",
+        "website": "www.paladini.com",
+        "logo": "./images/logo-paladini.png"
+        },
+        {
+        "name": "Sinteplast",
+        "address": "2423 Brentwood Drive",
+        "phone": "(423) 231-4904",
+        "website": "www.sinteplast.com",
+        "logo": "./images/logo-sinteplast.png"
+        },{
+        "name": "Skyscanner",
+        "address": "2261 Meadow Lane",
+        "phone": "(871) 807-8652",
+        "website": "www.skyscanner.com",
+        "logo": "./images/logo-skyscanner.png"
+        },
+        {
+        "name": "Tsoft",
+        "address": "3873 Gateway Road",
+        "phone": "(638) 122-3785",
+        "website": "www.tsoft.com",
+        "logo": "./images/logo-tsoft.png"
+        },
+        {
+        "name": "Adecco",
+        "address": "4000 Willow Greene Drive",
+        "phone": "(384) 541-0023",
+        "website": "www.adecco.com",
+        "logo": "./images/logo-adecco.webp"
+        },
+        {
+        "name": "Ambar",
+        "address": "4765 Peck Street",
+        "phone": "(904) 726-4530",
+        "website": "www.ambar.com",
+        "logo": "./images/logo-ambar.png"
+        },
+        {
+        "name": "Antena 3",
+        "address": "4084 Lake Road",
+        "phone": "(814) 642-0297",
+        "website": "www.antenatres.com",
+        "logo": "./images/logo-antena3.jpg"
+        },
+        {
+        "name": "Baggio",
+        "address": "1483 Middleville Road",
+        "phone": "(603) 062-9593",
+        "website": "www.baggio.com",
+        "logo": "./images/logo-baggio.png"
+        },
+        {
+        "name": "Consensus",
+        "address": "4340 Lee Avenue",
+        "phone": "(805) 195-1879",
+        "website": "www.consensus.com",
+        "logo": "./images/logo-consensus.png"
+        },
+        {
+        "name": "Experta",
+        "address": "1763 Bloomfield Way",
+        "phone": "(526) 882-4960",
+        "website": "www.expertaseguros.com",
+        "logo": "./images/logo-experta.png"
+        },
+        {
+        "name": "Global",
+        "address": "3013 Seneca Drive",
+        "phone": "(146) 938-6295",
+        "website": "www.global.com",
+        "logo": "./images/logo-global.png"
+        },
+        {
+        "name": "Making Sense",
+        "address": "3004 Bernardo Street",
+        "phone": "(741) 154-7879",
+        "website": "www.makingsense.com",
+        "logo": "./images/logo-making-sense.png"
+        },
+        {
+        "name": "Paladini",
+        "address": "378 Philadelphia Avenue",
+        "phone": "(284) 066-3318",
+        "website": "www.paladini.com",
+        "logo": "./images/logo-paladini.png"
+        },
+        {
+        "name": "Sinteplast",
+        "address": "2423 Brentwood Drive",
+        "phone": "(423) 231-4904",
+        "website": "www.sinteplast.com",
+        "logo": "./images/logo-sinteplast.png"
+        },{
+        "name": "Skyscanner",
+        "address": "2261 Meadow Lane",
+        "phone": "(871) 807-8652",
+        "website": "www.skyscanner.com",
+        "logo": "./images/logo-skyscanner.png"
+        },
+        {
+        "name": "Tsoft",
+        "address": "3873 Gateway Road",
+        "phone": "(638) 122-3785",
+        "website": "www.tsoft.com",
+        "logo": "./images/logo-tsoft.png"
+        },
+        {
+        "name": "Adecco",
+        "address": "4000 Willow Greene Drive",
+        "phone": "(384) 541-0023",
+        "website": "www.adecco.com",
+        "logo": "./images/logo-adecco.webp"
+        },
+        {
+        "name": "Ambar",
+        "address": "4765 Peck Street",
+        "phone": "(904) 726-4530",
+        "website": "www.ambar.com",
+        "logo": "./images/logo-ambar.png"
+        },
+        {
+        "name": "Antena 3",
+        "address": "4084 Lake Road",
+        "phone": "(814) 642-0297",
+        "website": "www.antenatres.com",
+        "logo": "./images/logo-antena3.jpg"
+        },
+        {
+        "name": "Baggio",
+        "address": "1483 Middleville Road",
+        "phone": "(603) 062-9593",
+        "website": "www.baggio.com",
+        "logo": "./images/logo-baggio.png"
+        },
+        {
+        "name": "Consensus",
+        "address": "4340 Lee Avenue",
+        "phone": "(805) 195-1879",
+        "website": "www.consensus.com",
+        "logo": "./images/logo-consensus.png"
+        },
+        {
+        "name": "Experta",
+        "address": "1763 Bloomfield Way",
+        "phone": "(526) 882-4960",
+        "website": "www.expertaseguros.com",
+        "logo": "./images/logo-experta.png"
+        },
+        {
+        "name": "Global",
+        "address": "3013 Seneca Drive",
+        "phone": "(146) 938-6295",
+        "website": "www.global.com",
+        "logo": "./images/logo-global.png"
+        },
+        {
+        "name": "Making Sense",
+        "address": "3004 Bernardo Street",
+        "phone": "(741) 154-7879",
+        "website": "www.makingsense.com",
+        "logo": "./images/logo-making-sense.png"
+        },
+        {
+        "name": "Paladini",
+        "address": "378 Philadelphia Avenue",
+        "phone": "(284) 066-3318",
+        "website": "www.paladini.com",
+        "logo": "./images/logo-paladini.png"
+        },
+        {
+        "name": "Sinteplast",
+        "address": "2423 Brentwood Drive",
+        "phone": "(423) 231-4904",
+        "website": "www.sinteplast.com",
+        "logo": "./images/logo-sinteplast.png"
+        },{
+        "name": "Skyscanner",
+        "address": "2261 Meadow Lane",
+        "phone": "(871) 807-8652",
+        "website": "www.skyscanner.com",
+        "logo": "./images/logo-skyscanner.png"
+        },
+        {
+        "name": "Tsoft",
+        "address": "3873 Gateway Road",
+        "phone": "(638) 122-3785",
+        "website": "www.tsoft.com",
+        "logo": "./images/logo-tsoft.png"
         }
     ]
 }

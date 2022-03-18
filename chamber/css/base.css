@@ -168,7 +168,7 @@ nav ul.open {display:block;}
 }
 
 .spotlights img {
-    width: 40%;
+    width: 80%;
 }
 
 .home-main div > a {
@@ -252,18 +252,19 @@ nav ul.open {display:block;}
     margin: .5rem 0 0;
 }
 
-.spotlight3 {
+.spotlights div:nth-child(3) {
     display: none;
 }
 
-.spotlight1 {
+.spotlights div:nth-child(1) {
     border-bottom: 1px white solid;
     margin-bottom: .7rem;
     padding-bottom: .7rem;
 }
 
 .spotlights img {
-    max-width: 120px;
+    max-width: 200px;
+    margin: 1rem 0;
 }
 
 .spotlights > div {
@@ -584,4 +585,22 @@ footer {
     display: block;
     font-size: 1.2rem;
     margin-top: 0;
+}
+
+/* ***************** CONTACT ***************** */
+
+.contact-main {
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.contact-info {
+    padding: 1rem;
+    background-color: #4920df;
+    margin-bottom: 1rem;
+}
+
+.contact-form {
+    padding: 1rem;
+    background-color: #4920df;
 }

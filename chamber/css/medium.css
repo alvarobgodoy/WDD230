@@ -56,24 +56,20 @@ nav ul {
     grid-template-columns: 1fr 1fr;
 }
 
-.spotlight1 {
+.spotlights div:nth-child(1) {
     border-bottom: none;
     border-right: 1px white solid;
     margin: 0;
-    padding: 0;
-}
-
-.spotlight1 {
     grid-row: 4;
     grid-column: 1;
 }
 
-.spotlight2 {
+.spotlights div:nth-child(2) {
     grid-row: 4;
     grid-column: 2;
 }
 
-.spotlight3 {
+.spotlights div:nth-child(3) {
     display: none;
 }
 
@@ -218,4 +214,22 @@ nav ul {
 #directory.active section p {
     margin: 0;
 }
+
+/* ***************** CONTACT ***************** */
+
+.contact-main > div {
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.join-form {
+    width: 100%;
+    max-width: 40rem;
+}
+
 }
