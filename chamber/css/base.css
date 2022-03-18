@@ -279,6 +279,10 @@ nav ul.open {display:block;}
     margin: 0;
 }
 
+.new-release a {
+    color: var(--accent-color);
+}
+
 .join {
     display: none;
 }
